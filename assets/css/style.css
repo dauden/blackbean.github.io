@@ -81,11 +81,12 @@
 
 body {
   font-family: "JetBrains Mono", monospace;
-  color: #928f92;
+  color: #ffffff;
+  background-color: #070a63;
 }
 
 a {
-  color: #6e7173;
+  color: #ffa801;
   text-decoration: none;
 }
 
@@ -138,7 +139,7 @@ h3 em {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #01033a;
 }
 
 #preloader:before {
@@ -196,7 +197,7 @@ h3 em {
 @media (max-width: 991px) {
   #header {
     width: 300px;
-    background: #fff;
+    background: #01033a;
     border-right: 1px solid #e6e9ec;
     left: -300px;
   }
@@ -474,7 +475,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #c6c6c6;
+  color: rgb(14, 190, 255);
 }
 
 .section-title h2::before {
@@ -506,7 +507,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #bac0c6;
+  color: #ffffff;
 }
 
 .about .content ul {
@@ -548,7 +549,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  color: #6c757d;
+  color: #ffffff;
 }
 
 .skills .progress .skill .val {
@@ -578,7 +579,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #64696e;
+  border-left: 2px solid #0ebeff;
   position: relative;
 }
 
@@ -587,17 +588,18 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #adb5bd;
+  color: #fff;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  background: #ffc107;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  color: #fff;
 }
 
 .resume .resume-item ul {
@@ -620,7 +622,7 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
+  background: #ffc107;
   border: 2px solid #41464b;
 }
 
@@ -650,12 +652,12 @@ section {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #6c757d;
+  color: #fff;
 }
 
 .recommendations .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: #fff;
   margin: 0 0 15px 0;
 }
 
@@ -697,7 +699,7 @@ section {
 }
 
 .recommendations .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #928f92;
+  background-color: #ffc107;
 }
 
 @media (min-width: 992px) {
@@ -708,7 +710,6 @@ section {
 
 .contact .info {
   width: 100%;
-  background: #fff;
 }
 
 .contact .info i {
@@ -743,7 +744,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #838c8c;
+  background: #ffc107;
   color: #fff;
 }
 
@@ -769,7 +770,7 @@ section {
 
 
 #footer {
-  background: #f7f8f9;
+  background: #020040;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -788,6 +789,7 @@ section {
   font-style: italic;
   padding: 0;
   margin: 0 0 40px 0;
+  color: #fff;
 }
 
 #footer .social-links {
@@ -797,7 +799,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #aaacad;
+  background: #0ebeff;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -810,7 +812,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #6e7173;
+  background: #ffc107;
   color: #fff;
   text-decoration: none;
 }
