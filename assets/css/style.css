@@ -428,10 +428,12 @@ h3 em {
 #home .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #6c757d;
+  color: #0abeff;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
+  border: 1px solid #ffc107;
+  padding: 2px;
 }
 
 #home .social-links a:hover {
@@ -724,16 +726,17 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #928f92;
+  color: #ffffff;
   float: left;
   width: 44px;
   height: 44px;
-  background: #eef7ff;
+  background: #0abeff;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
+  border: 1px #ffffff solid;
 }
 
 .contact .info h4 {
