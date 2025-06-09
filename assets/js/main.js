@@ -148,10 +148,6 @@
     })
   }
 
-  on('click', '.toggleColors', function(_e) {
-    select('body').classList.toggle('trend')
-  })
-
   new Swiper('.recommendations-slider', {
     speed: 600,
     loop: true,

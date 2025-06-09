@@ -208,9 +208,6 @@ h3 em {
     margin-left: 100px;
   }
 }
-a.toggleColors {
-  color: #0ebeff;
-}
 .options {
   position: fixed;
   top: 0;
@@ -410,7 +407,7 @@ a.toggleColors {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #b1b1b1;
+  color: #ffc106;
 }
 
 #home p {
@@ -449,6 +446,7 @@ a.toggleColors {
   #home h1 {
     font-size: 32px;
     line-height: 36px;
+    color: #ffc106;
   }
 
   #home p {
@@ -500,8 +498,20 @@ section {
   left: calc(50% - 20px);
 }
 
+.section-title .caption h1 {
+  color: #ffc107;
+}
 .section-title .caption {
   margin-bottom: 20px;
+}
+
+.about .content {
+  margin: 20px;
+  padding: 0px !important;
+}
+
+.about .content p {
+  color: #0ebeff;
 }
 
 .about .content h3 {
@@ -558,14 +568,14 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #f2f3f5;
+  background: #0abeff;
 }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #e1e8f1;
+  background-color: #ffc106;
 }
 
 .resume .resume-title {
@@ -573,7 +583,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #6c757d;
+  color: #ffc106;
 }
 
 .resume .resume-item {
@@ -630,7 +640,7 @@ section {
   margin-bottom: 40px;
 }
 .img-fluid {
-  margin: 10px;
+  border: 10px solid #ffc107;
 }
 .recommendations .recommendations-carousel,
 .recommendations .recommendations-slider {
@@ -652,12 +662,12 @@ section {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #fff;
+  color: #ffc107;
 }
 
 .recommendations .testimonial-item h4 {
   font-size: 14px;
-  color: #fff;
+  color: #0ebeff;
   margin: 0 0 15px 0;
 }
 
@@ -731,7 +741,6 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #6c757d;
 }
 
 .contact .info p {
