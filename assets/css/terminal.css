@@ -1,0 +1,156 @@
+/* Terminal.css - Styles for the command line interface */
+
+/* Intro terminal styles */
+#intro-terminal {
+  margin-bottom: 20px;
+  font-family: 'Courier New', monospace;
+}
+
+#intro-terminal p {
+  margin-bottom: 5px;
+}
+
+#commandSelect, #commandResultTyping {
+  color: #0f0;
+}
+
+.terminal-container {
+  background-color: rgba(0, 0, 0, 0.85);
+  font-family: 'Courier New', monospace;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  display: none; /* Initially hidden, will be shown after intro animation */
+  border: 1px solid #444;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: calc(100vh - 30px);
+  overflow: scroll;
+}
+
+.terminal-input-container {
+  display: flex;
+  position: fixed;
+  bottom: 1px;
+  width: 100%;
+  background: #02020b;
+  padding: 15px;
+}
+
+.terminal-prompt {
+  color: #0f0;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.terminal-input {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  flex-grow: 1;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  outline: none;
+}
+
+.terminal-result {
+  padding: 15px;
+  margin-bottom: 50px;
+  white-space: pre-wrap;
+  line-height: 1.5;
+  overflow-y: auto;
+  font-family: 'Courier New', monospace;
+  color: #ddd;
+}
+
+/* Linux-style terminal history line */
+.terminal-history-line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  font-family: 'Courier New', monospace;
+}
+
+/* Linux-style terminal output */
+.terminal-output {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  color: #ddd;
+  font-family: 'Courier New', monospace;
+}
+
+.terminal-output .container {
+  all: initial;
+}
+
+/* Markdown content styling */
+.terminal-output {
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+.terminal-output h1,
+.terminal-output h2,
+.terminal-output h3,
+.terminal-output h4,
+.terminal-output h5,
+.terminal-output h6 {
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.terminal-output a {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+.terminal-output ul,
+.terminal-output ol {
+  margin-left: 20px;
+}
+
+.terminal-output blockquote {
+  border-left: 3px solid #555;
+  padding-left: 10px;
+  color: #aaa;
+  margin-left: 10px;
+}
+
+.terminal-output code {
+  background-color: #333;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+}
+
+.terminal-output pre {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.terminal-output img {
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+}
+
+/* Add a blinking cursor effect */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.terminal-input::after {
+  content: '|';
+  animation: blink 1s infinite;
+}
+
+/* Make the terminal responsive */
+@media (max-width: 768px) {
+  .terminal-container {
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

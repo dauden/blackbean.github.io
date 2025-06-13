@@ -85,6 +85,22 @@ body {
   background-color: #070a63;
 }
 
+#terminal{
+  display: none;
+}
+
+#ui{
+  display: block;
+}
+
+.command-line #terminal{
+  display: block;
+}
+
+.command-line #ui{
+  display: none;
+}
+
 a {
   color: #ffa801;
   text-decoration: none;
@@ -208,6 +224,21 @@ h3 em {
     margin-left: 100px;
   }
 }
+a.toggleUI {
+  color: #0abeff;
+}
+a.toggleUI:hover {
+  color: #ffc107;
+}
+.options li a.toggleUI span:before {
+  content: "< ";
+  color: #ffc107;
+}
+.options li a.toggleUI span:after {
+  content: " >";
+  color: #ffc107;
+}
+
 .options {
   position: fixed;
   top: 0;
