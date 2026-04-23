@@ -674,6 +674,7 @@ section {
 }
 .img-fluid {
   border: 10px solid #ffc107;
+  max-width: 200px;
 }
 .recommendations .recommendations-carousel,
 .recommendations .recommendations-slider {
