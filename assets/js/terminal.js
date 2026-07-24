@@ -124,7 +124,20 @@
       description: 'Show my skills and expertise',
       text: `
       # My Skills
-      As a Full-Stack Engineer, I have experience working on both frontend and backend development, with a strong focus on backend technologies. I’ve primarily worked with Node.js and Java, while also gaining hands-on experience with other languages such as PHP, Ruby, and C#. My work spans developing APIs, building scalable server-side applications, and occasionally contributing to frontend features to deliver end-to-end solutions
+      
+      Technical Individual Contributor and Solution Designer with 10+ years of experience designing and delivering scalable cloud-native platforms. At Pillalab.ai (Ringkas), I helped build the Ringkas ecosystem from zero to production, defining its architecture, technical foundation, and engineering standards.
+        
+        Key strengths include:
+
+          Solution architecture and system design for complex distributed systems.
+          Multi-cloud platforms across AWS, Google Cloud, and native cloud providers.
+          AI-powered solutions with a focus on privacy, security, and responsible AI adoption.
+          Building products for multiple markets, including Indonesia and Saudi Arabia.
+          Scalable microservices, event-driven architecture, and API-first design.
+          Enterprise-grade quality, reliability, and observability.
+          Security, compliance, and governance aligned with ISO, OJK, and cybersecurity GRC requirements.
+          Bridging business requirements with practical, scalable, and maintainable technical solutions.
+
       Restful: 15+ yrs Experienced
       Microservice: 10+ yrs Experienced
       Frontend: 7+ yrs Intermediate
