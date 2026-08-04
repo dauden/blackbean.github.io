@@ -706,7 +706,13 @@ section {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #592745;
+  color: #ffffff;
+}
+
+.recommendations .testimonial-item h3 a {
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: peru;
 }
 
 .recommendations .testimonial-item h4 {
